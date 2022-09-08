@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact{
+    padding-top: 6.25rem;
+    margin-bottom: 50px;
+}
+textarea,input{
+    width: 100%;
+    padding: 0.87rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    padding-left: 1.12rem;
+    font-size: 0.81rem;
+    background: transparent;
+    color: #495057;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+textarea:focus,
+input:focus{
+    outline: 0;
+}
+.button_link{
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.half_flex{
+    display: flex;
+}
+.contact_send{
+    margin-top: 1.88rem;
+}
+.contact_firstname{
+padding-right: 0.94rem;
+flex: 1;
+}
+.contact_email{
+padding-left: 0.94rem;
+flex: 1;
+}
+
+@media only screen and (max-width:991px) {
+    .half_flex{
+        flex-direction: column;
+    }
+    .contact_firstname,
+    .contact_email{
+        padding: 0;
+    }
+}

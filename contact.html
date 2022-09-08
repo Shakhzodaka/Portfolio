@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/shared.css">
+    <link rel="stylesheet" href="./styles/contacts.css">
+    <meta content="HTMl, CSS, JS asoslari">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header-nav">
+                <div class="header_logo">
+                    <a href="">
+                        <img src="./partners_logo/onlinelogomaker-090622-2055-0102-2000-transparent.png" alt="">
+                    </a>
+                </div>
+
+                <ul class="header_menu">
+
+                    <li class="header_menu__items">
+                        <a href="./main.html" >Home</a>
+                    </li>
+                    <li class="header_menu__items">
+                        <a href="">About</a>
+                    </li>
+                    <li class="header_menu__items">
+                        <a href="">Portfolio</a>
+                    </li>
+                    <li class="header_menu__items">
+                        <a href="">Portfolio</a>
+                    </li>
+                    <li class="header_menu__items">
+                        <a href="">Services</a>
+                    </li>
+                    <li class="header_menu__items">
+                        <a href="" class="active">Contacts</a>
+                    </li>
+                </ul>
+                <div class="header_burger">
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section class="contact">
+           <h2 class="section_title">
+            Contact with me
+           </h2>
+            <form action="./server.php" method="GET">
+                <textarea name="message" id="" rows="10" placeholder="Write message"></textarea>
+               <div class="half_flex">
+                <div class="contact_firstname">
+                    <input type="text" name="name" placeholder="Write your name">
+                </div>
+                <div class="contact_email">
+                    <input type="email" name="email" id="" placeholder="Your email">
+                </div>
+               </div>
+                <input type="text">
+                <button class="button contact_send"><a href="" class="button_link">Submit</a></button>
+            </form>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+         <div class="footer_brand">
+             <img src="./partners_logo/onlinelogomaker-090622-2055-0102-2000-transparent.png" alt="footer-brand">
+         </div>
+         <nav class="footer_navigation">
+             <ul class="footer_navigation_items">
+                 <li class="footer_navigation_item"><a href="#">Home</a></li>
+                 <li class="footer_navigation_item"><a href="#">About</a></li>
+                 <li class="footer_navigation_item"><a href="#">Portfolio</a></li>
+                 <li class="footer_navigation_item"><a href="#">Services</a></li>
+                 <li class="footer_navigation_item"><a href="#">Contacts</a></li>
+             </ul>
+         </nav>
+         <ul class="footer_socials">
+             <li class="footer_social">
+                 <a href="" >
+                     <i class="fab fa-telegram"></i>
+                 </a>
+             </li>
+             <li class="footer_social">
+                 <a href="">
+                     <i class="fab fa-instagram"></i>
+                 </a>
+             </li>
+             <li class="footer_social">
+                 <a href="">
+                     <i class="fab fa-youtube"></i>
+                 </a>
+             </li>
+ 
+         </ul>
+         <p class="footer_autor">
+             Made with love by Shakhzod Khuzhaev
+             <i class="fab fa-whatsapp"></i>
+         </p>
+        </div>
+     </footer>
+
+
+
+    <script src="./script.js/js.js"></script>
+</body>
+
+</html>
